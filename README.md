@@ -2,7 +2,8 @@
 
 A motif-informed re-analysis of HNF1A ChIP-seq peaks and disease variants.
 
-MSc Applied Bioinformatics research project, King's College London, 2025-26.
+MSc Applied Bioinformatics Research Project
+King's College London, 2025-26.
 
 ## Data Availability
 
