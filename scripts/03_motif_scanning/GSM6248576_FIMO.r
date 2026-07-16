@@ -14,6 +14,9 @@ library(GenomicRanges)
 # define consensus
 consensus <- "GGTTAATNATTAAC"
 
+# read peak centric .csv
+GSM6248576 <- read_csv("HNF1A_Islets_GSM6248576/GSM6248576_Outputs/GSM6248576_peakcentric.csv", show_col_types = FALSE)
+
 # read .tsv file from FIMO output
 GSM6248576_FIMO <- read_tsv("HNF1A_Islets_GSM6248576/GSM6248576_Outputs/GSM6248576_MA0046.1.tsv", comment = "#", show_col_types = FALSE)
 
