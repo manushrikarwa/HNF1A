@@ -29,9 +29,7 @@ GWAS credible sets are from the [Open Targets Platform](https://platform.opentar
 
 ### `data/`
 
-Small inputs are committed directly, including the outputs of the manual MEME
-Suite steps — so the pipeline can be followed end to end without re-running the
-web server.
+Small inputs are committed directly, including the outputs of the manual MEME Suite steps.
 
 ```
 data/
