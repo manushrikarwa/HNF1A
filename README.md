@@ -20,20 +20,20 @@ GWAS credible sets are from the [Open Targets Platform](https://platform.opentar
 
 ## Repository Structure
 
-```
+`````
 .
 ├── data/          # committed inputs (peak BEDs, JASPAR motif matrices)
 ├── environment/   # software and package provenance
 └── scripts/       # analysis pipeline, stages 00-08
+`````
+
+### `data/`
+
+Small inputs are committed directly, including the outputs of the manual MEME
+Suite steps — so the pipeline can be followed end to end without re-running the
+web server.
+
 ```
-
-````
-data/
-├── FIMO_Outputs/                                  # partner-TF FIMO scans (islet peaks)
-````
-
-Small inputs are committed directly, including the outputs of the manual MEME Suite steps.
-
 data/
 ├── FIMO_Outputs/                                  # partner-TF FIMO scans (islet peaks)
 │   ├── HNF1B_fimo.tsv
